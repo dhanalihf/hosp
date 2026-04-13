@@ -1,0 +1,295 @@
+
+.maincontainer{
+height: 60px;
+width: 2500px;
+display: flex;
+background-color: rgba(240, 128, 128, 0.799);
+color: white;
+font-size: 30px;
+position: absolute;
+text-align: center;
+padding: 20px;
+}
+.world{
+    display: flex;
+    gap: 180px;
+    font-size: 29px;
+    color: white;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+.oviya{
+    height: 1000px;
+    width: 100%;
+}
+.samitha{
+    height: 1100px;
+    width: 2500px;
+    background-color:rgba(128, 128, 128, 0.868);
+}
+.abt{
+    font-size: 70px;
+    text-align: center;
+}
+.thanu{
+text-align: center;
+font-size: 35px;
+font-family: 'Lucida Sans';
+border: 2px solid black;
+border-radius: 10px;
+padding: 70px;
+margin: 10px;
+}
+.mine{
+    height: 1700px;
+    width:100%;
+    background-color: cadetblue;
+     position:relative;
+}
+.bigbox{
+ display:flex;
+ gap:60px;
+ justify-content: center;
+ position:absolute;
+ top:300px;
+ left:370px;
+ border-radius: 10px;
+}
+.box1{
+    border:2px solid black;
+    height:1000px;
+    width:600px;
+    border-radius: 20px;
+    gap: 30px;
+}
+.box2{
+    border:2px solid black;
+    height:1000px;
+    width: 600px;
+    border-radius: 20px;
+    gap: 20px;
+}
+.box3{
+    border:2px solid black;
+    height:1000px;
+    width:600px;
+    border-radius: 20px;  
+    gap: 20px;
+}
+.im1{
+height: 500px;
+width: 600px;
+border-radius: 20px;
+}
+.im2{
+    height: 500px;
+    width: 600px;
+    border-radius: 20px;
+
+}
+.im3{
+    height: 500px;
+    width: 600px;
+    border-radius: 20px;
+}
+
+.sr{
+color:darkred;
+font-size: 40px;
+position: absolute;
+top: 525px;
+}
+.mone{
+    font-size: 25px;
+    position: absolute;
+    top: 590px;
+    padding: 5px 8px;
+    left: 0px;
+    color: black;
+}
+.btn1{
+    position:relative;
+    top: 345px;
+    left: 380px;
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    height: 60px;
+    width: 190px;
+    font-size: 25px;
+}
+.tr{
+color: darkred;
+font-size: 40px;
+position: absolute;
+top: 525px;
+justify-content: center;
+
+}
+.mtwo{
+    font-size: 25px;
+    position: absolute;
+    top: 590px;
+    padding: 5px 8px;
+    color: black;
+}
+.btn2{
+   position:relative;
+    top: 345px;
+    left: 380px;
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    height: 60px;
+    width: 190px;
+    font-size: 25px; 
+}
+.mr{
+color: darkred;
+font-size: 40px;
+position: absolute;
+top: 525px;
+}
+.mfour{
+     font-size: 25px;
+    position: absolute;
+    top: 590px;
+    padding: 5px 8px;
+    font-weight: 100px;
+}
+.btn3{
+   position:relative;
+    top: 250px;
+    left: 380px;
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    height: 60px;
+    width: 190px;
+    font-size: 25px; 
+  
+}
+.coin1{
+    background-color: black;
+    height: 650px;
+    width: 2600px;
+}
+.to{
+    color: white;
+    font-size: 45px;
+    padding: 30px;
+}
+.beg{
+    color:white;
+    font-size: 40px;
+    position: absolute;
+    top: 5500px;
+    left: 1500px;
+    
+}
+.am{
+   color: white;
+   position: absolute;
+   font-size: 40px;
+   top: 5400px;
+   left: 1800px;
+}    
+.on{
+    text-align: center;
+    font-size: 90px;
+}
+.i{
+    color: white;
+    height: 60px;
+    width:70px ;
+    position: absolute;
+    top: 5430px;
+    left: 1700px;
+} 
+.wh{
+    color: white;
+    position:absolute;
+    font-size:35px;
+    left:1600px;
+    top:4000px;
+
+}
+a:hover{
+    color: darkred;
+}
+button:active{
+    color: crimson;
+    background-color: purple;
+}
+p:first-child{
+    color: blue;
+
+}
+p:nth-child(2){
+    color: rgb(213, 18, 125);
+}
+p:last-child{
+    color: crimson;
+}
+.im1:hover{
+    transform: scale(1.1);
+}
+.box1:hover{
+    transform: scale(1.1);
+}
+.box2:hover{
+    transform:scale(1.1) ;
+}
+.box3:hover{
+    transform: scale(1.1);
+}
+.im2:hover{
+    transform: scale(1.1);
+}
+.im3:hover{
+    transform: scale(1.1);
+}
+.box4{
+    height: 1090px;
+    width:2500px ;
+    background-color: rgba(5, 112, 77, 0.895);
+}
+
+@media (min-width:700px) {
+    body{
+        background-color: black;
+        font-size: 100px;
+        
+    }
+    
+}
+.ui{
+    height: 800px;
+    width: 600px;
+    left: 200px;
+}
+.opp{
+    font-size: 90px;
+    text-align: center;
+}
+.loo{
+    height:800px;
+    width: 600px;
+    right: 500px;
+}
+.lii{
+    height: 800px;
+    width: 600px;
+    gap: 10px;
+}
+.fii{
+    height: 800px;
+    width: 600px;
+}
+.jii{
+    height: 800px;
+    width: 600px;
+}
